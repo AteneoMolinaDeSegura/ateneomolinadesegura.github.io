@@ -1,0 +1,53 @@
+header i.material-icons {
+  margin-top: 10px;
+}
+
+header img {
+  padding-top: 15px !important;
+}
+
+.ateneo-de-molina-img-title {
+  height: 80% !important;
+}
+
+.mdl-layout__header {
+  background: white !important;
+}
+
+.mdl-layout__drawer-button {
+  display: none !important;
+}
+
+.mdl-layout__drawer-button i {
+  color: black !important;
+}
+
+.mdl-layout__drawer .mdl-layout-title img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.mdl-layout__drawer a {
+  color: black !important;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .mdl-layout__drawer-button {
+    display: inline !important;
+  }
+  .mdl-layout__header-row nav {
+    display: none !important;
+  }
+
+  #logoAteneo {
+    margin-left: 34px !important;
+  }
+
+  .ateneo-de-molina-img-title {
+    width: 60%;
+  }
+}
